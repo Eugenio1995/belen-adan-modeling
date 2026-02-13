@@ -95,9 +95,9 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div>
             {/* Contact Form */}
-            <Card className="border-2">
+            {/* <Card className="border-2">
               <CardContent className="p-8">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
@@ -163,7 +163,7 @@ const Contact = () => {
                   </Button>
                 </form>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Contact Information */}
             <div className="space-y-6">
